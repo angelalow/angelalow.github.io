@@ -1,5 +1,3 @@
-body {background-color: blue; 
-}
-
-h1, p {color: white;
+body {background-image: url(/images/Landscape_balloons.jpeg);
+	background-size: cover;
 }

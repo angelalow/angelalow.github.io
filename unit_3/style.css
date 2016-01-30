@@ -1,0 +1,13 @@
+#background {
+	background-image: url(/images/candy_biscuits.jpg);
+	background-size: cover;
+}
+h1, h2, h3 {
+	font-family: 'Yeseva One', Georgia, Serif;
+}
+p, nav {
+	font-family: 'Merriweather', Helvetica, Sans-serif;
+	color: #37424a;
+}
+body {background-color: white
+}
