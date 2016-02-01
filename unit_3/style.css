@@ -1,13 +1,78 @@
-#background {
-	background-image: url(/images/candy_biscuits.jpg);
-	background-size: cover;
+* {
+	padding: 0;
+	margin: 0;
 }
-h1, h2, h3 {
+a {
+	font-family: 'Merriweather', Helvetica, Sans-serif;
+	position: relative;
+	color: #3f3f3f; 
+	text-decoration: none;
+	padding-right: 15px;
+	padding-left:15px;
+	padding-top 14px;
+	padding-bottom 8px;
+}
+a:hover {
+	color: #3f3f3f;
+}
+a:before {
+	content:"";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #3f3f3f;
+	visibility: hidden;
+	-webkit-transform:scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition:all 0.3 ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+a:hover:before {
+	visibility:visible;
+	-webkit-transform:scaleX(1);
+	transform: scaleX(1);
+}
+h1 {
 	font-family: 'Yeseva One', Georgia, Serif;
+	color: #1b1b21;
+	font-weight: normal;
+	font-size:72px;
 }
-p, nav {
+h2 {
+	font-family: 'Yeseva One', Georgia, Serif;
+	color: #565656;
+	font-weight: normal;
+	font-size: 42px; 
+	padding-top: 15px;
+	padding-bottom: 8px;
+}
+h3 {
+	font-family: 'Yeseva One', Georgia, Serif;
+	color: #1b1b21;
+	font-weight: normal;
+	font-size: 24px; 
+	padding-top: 15px;
+	padding-bottom: 8px;
+}
+p {
 	font-family: 'Merriweather', Helvetica, Sans-serif;
 	color: #37424a;
+	font-size:15px;
+	padding-bottom: 5px;
 }
-body {background-color: white
+#wholebackgroundimage {
+	height:100vh;
+	min-height:768px;
+	background-color: white;
+	background-image: url('images/landscape_balloons.jpeg');
+	background-position: 100% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+h4, h5, h6 { font-family: 'Merriweather', Helvetica, Sans-serif;
+	text-decoration: none;
+	color:white;
 }
