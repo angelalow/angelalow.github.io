@@ -95,16 +95,18 @@ letter-spacing: 0.007em;
 #Bigquote { 
 	float: left;
 	text-align: center;
-	width: 47%;
-	margin-left: 1%;
+	width: 45%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 	margin-top: 15%;
 	margin-bottom: 12%
 }
 aside {
 	float :right;
-	width: 47%;
-	margin-right: 3%;
-	margin-top: 15%;
+	width: 40%;
+	margin-left: 1.5%;
+	margin-right: 8.5%;
+	margin-top: 12%;
 	margin-bottom: 12%;
 }
 #sectionheadline {

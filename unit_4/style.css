@@ -2,19 +2,17 @@
 	padding: 0;
 	margin: 0;
 }
-a {
+body {
 	font-family: 'Merriweather', Georgia, Sans-serif;
+	text-align: center;
+}
+a {
 	letter-spacing: 0.005em;
 	position: relative;
 	color: #3f3f3f; 
 	text-decoration: none;
-	padding-right: 15px;
-	padding-left:15px;
-	padding-top 1px;
-	padding-bottom 8px;
-}
-a:hover {
-	color: #3f3f3f;
+	padding: 15px 15px 8px 15px;
+	margin: 15px 0;
 }
 a:before {
 	content:"";
@@ -35,50 +33,49 @@ a:hover:before {
 	-webkit-transform:scaleX(1);
 	transform: scaleX(1);
 }
-h1 {
+h1, h2, h3 {
 	font-family: 'Yeseva One', Georgia, Serif;
+	font-weight: 400;
+}
+h1 {
 	color: #1b1b21;
-	font-weight: normal;
 	font-size:72px;
 }
 h2 {
-	font-family: 'Yeseva One', Georgia, Serif;
 	color: #2c2c2c;
-	font-weight: normal;
 	font-size: 42px; 
 	padding-top: 15px;
 	padding-bottom: 8px;
 }
 h3 {
-	font-family: 'Yeseva One', Georgia, Serif;
 	color: #1b1b21;
-	font-weight: normal;
 	font-size: 24px; 
 	padding-top: 15px;
 	padding-bottom: 8px;
 }
+h4, h5, h6 { 
+	letter-spacing: 0.007em;
+	text-decoration: none;
+	color: #2c2c2c;
+}
 p {
-	font-family: 'Merriweather', Helvetica, Sans-serif;
 	letter-spacing: 0.005em;
 	color: #37424a;
 	font-size: 15px;
-	line-height: : 2em;
+	line-height: 2em;
 	padding-bottom: 5px;
 }
-#wholebackgroundimage {
-	height:100vh;
-	min-height:768px;
-	background-color: white;
-	background-image: url('images/landscape_balloons.jpeg');
-	background-position: 100% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	text-align: center;
+aside {
+	text-align: left;
+	float: right;
+	width: 47%;
+	margin-right: 3%;
+	margin-top: 15%;
+	margin-bottom: 12%;
 }
-h4, h5, h6 { font-family: 'Merriweather', Helvetica, Sans-serif;
-letter-spacing: 0.007em;
-	text-decoration: none;
-	color: #2c2c2c;
+footer {
+	background-color: #D8D8D8;
+	padding: 1.2em 0;
 }
 .grouptwocolumn:before,
 .grouptwocolumn:after {
@@ -92,30 +89,23 @@ letter-spacing: 0.007em;
 	clear: both;
 	zoom:1;
 }
-#Bigquote { 
+#bigquote { 
 	float: left;
-	text-align: center;
 	width: 47%;
 	margin-left: 1%;
-	margin-top: 15%;
-	margin-bottom: 12%
-}
-aside {
-	float :right;
-	width: 47%;
-	margin-right: 3%;
 	margin-top: 15%;
 	margin-bottom: 12%;
 }
 #sectionheadline {
-	text-align: center;
 	margin-top: 70px;
 	background-color: #D8D8D8;
 }
-#top {
-	text-align: center
-}
-footer {
-	background-color: #D8D8D8;
-	text-align: center;
+#wholebackgroundimage {
+	height:100vh;
+	min-height:768px;
+	background-color: white;
+	background-image: url('images/landscape_balloons.jpeg');
+	background-position: 100% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
