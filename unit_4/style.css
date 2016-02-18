@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 body {
 	font-family: 'Merriweather', Georgia, Sans-serif;
@@ -9,9 +10,10 @@ body {
 a {
 	letter-spacing: 0.005em;
 	position: relative;
+	display: inline-block;
 	color: #3f3f3f; 
 	text-decoration: none;
-	padding: 15px 15px 8px 15px;
+	padding: 5px 15px 5px 15px;
 	margin: 15px 0;
 }
 a:before {

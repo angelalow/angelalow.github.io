@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+body {
+	font-family: 'Merriweather', Georgia, Sans-serif;
+	text-align: center;
+}
+a {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+	letter-spacing: 0.005em;
+	position: relative;
+	display: inline-block;
+	color: #3f3f3f; 
+	text-decoration: none;
+	margin: 15px 0;
+}
+a:before {
+	content:"";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #3f3f3f;
+	visibility: hidden;
+	-webkit-transform:scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition:all 0.3 ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+a:hover:before {
+	visibility:visible;
+	-webkit-transform:scaleX(1);
+	transform: scaleX(1);
+}
+h1, h2, h3 {
+	font-family: 'Yeseva One', Georgia, Serif;
+	font-weight: 400;
+}
+h1 {
+	color: #1b1b21;
+	font-size:72px;
+}
+h2 {
+	color: #2c2c2c;
+	font-size: 42px; 
+	padding-top: 15px;
+	padding-bottom: 8px;
+}
+h3 {
+	color: #1b1b21;
+	font-size: 24px; 
+	padding-top: 15px;
+	padding-bottom: 8px;
+}
+h4, h5, h6 { 
+	letter-spacing: 0.007em;
+	text-decoration: none;
+	color: #2c2c2c;
+}
+p {
+	letter-spacing: 0.005em;
+	color: #37424a;
+	font-size: 15px;
+	line-height: 2em;
+	padding-bottom: 5px;
+}
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+	text-align: left;
+	float: right;
+	width: 47%;
+	margin-right: 3%;
+	margin-top: 15%;
+	margin-bottom: 12%;
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+.about:before,
+.about:after {
+	content: "";
+	display:table;
+}
+.about:after {
+	clear: both;
+}
+.about {
+	clear: both;
+	zoom:1;
+}
+.articleformat {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+#bigquote { 
+	background-color: #FFE2B8;
+	float: left;
+	width: 47%;
+	margin-left: 1%;
+	margin-top: 15%;
+	margin-bottom: 12%;
+}
+#journal {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+#sectionheadline {
+	margin-top: 70px;
+	background-color: #D8D8D8;
+}
+#landingpage {
+	height:100vh;
+	min-height:768px;
+	background-color: white;
+	background-image: url('images/landscape_balloons.jpeg');
+	background-position: 100% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
